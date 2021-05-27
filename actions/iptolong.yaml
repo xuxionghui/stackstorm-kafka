@@ -1,0 +1,11 @@
+---
+name: iptolong
+runner_type: python-script
+description: "Send message to Apache Kafka broker system."
+entry_point: iptolong.py
+enabled: true
+parameters:
+  ip:
+    description: "IpToLong"
+    type: string
+    required: true
