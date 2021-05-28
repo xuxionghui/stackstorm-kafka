@@ -1,0 +1,8 @@
+---
+name: ipRandom
+runner_type: python-script
+description: "Send message to Apache Kafka broker system."
+entry_point: ipRandom.py
+enabled: true
+parameters:
+
